@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Movies</title>
+    <link rel="stylesheet" href="{{url_for('static',filename = 'style3.css')}}">
+</head>
+<body>
+<div class = "title">
+    <h2>Recommended Movies</h2>
+</div>
+<div class = "input">
+  <h1>Entered Movie : {{entered_movie}}</h1>
+</div>
+<div class= "parent">
+    <div class="column1">
+      <img src="{{link1}}"  >
+      <h2>{{movie1}}</h2>
+    </div>
+    <div class="column2">
+      <img src="{{link2}}"  >
+      <h2>{{movie2}}</h2>
+    </div>
+    <div class="column3">
+      <img src="{{link3}}">
+      <h2>{{movie3}}</h2>
+    </div>
+    <div class="column4">
+      <img src="{{link4}}" >
+      <h2>{{movie4}}</h2>
+    </div>
+    <div class="column5">
+      <img src="{{link5}}" >
+      <h2>{{movie5}}</h2>
+    </div>
+  </div>  
+</body>
+</html>
